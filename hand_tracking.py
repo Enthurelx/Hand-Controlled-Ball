@@ -45,7 +45,7 @@ while True:
         ball_x=int((1-landmark.x) * 800)
         ball_y=int(landmark.y * 600)
         
-        
+        screen.fill((0,0,0))
         pygame.draw.circle(screen,(255, 182, 193),(ball_x,ball_y),10)
         pygame.display.flip()
         
